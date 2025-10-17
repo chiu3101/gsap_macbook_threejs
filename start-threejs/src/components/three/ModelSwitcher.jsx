@@ -24,6 +24,7 @@ const moveGroup = (group , x) => {
 
     gsap.to(group.position, {x , duration:ANIMATION_DURATION})
 }
+//a custom hook coming from gsap which makes it easier to work with gsap using jsx
 
 const ModelSwitcher = ({scale , isMobile}) => {
     const smallMacbookRef = useRef();
